@@ -4,7 +4,8 @@ A list of C# features.
 
 ## Table of Contents
 
----
+1. [C# 7.0](#c-70)
+   a. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
 
 ## Features
 
@@ -15,7 +16,7 @@ A list of C# features.
 1. [Pattern Matching Overview](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching)
 2. [Pattern Matching Expressions](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression)
 
-#### Code Example
+##### Code Example
 
 ```
 var booleanValue = Convert.ToBoolean(new Random().Next(0, 2));
