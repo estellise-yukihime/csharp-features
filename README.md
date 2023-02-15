@@ -4,10 +4,29 @@ A list of C# features.
 
 ## Table of Contents
 
-1. [C# 7.0](#c-70)
+1. [C# 1.0](#c-10)
+   1. [Ternary Operator](#ternary-operator)
+2. [C# 7.0](#c-70)
    1. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
 
 ## Features
+
+### C# 1.0
+
+#### Ternary Operator
+
+1. [Ternary Conditional Operator](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator)
+
+##### Code Example
+```
+// Ternary Operator Syntax
+condition ? true : false
+condition ? consequent : alternative
+
+// Sample
+var random = Convert.ToBoolean(new Random().Next(0, 2));
+var value = random ? "This is true" : "This is false";
+```
 
 ### C# 7.0
 
