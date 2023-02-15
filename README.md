@@ -5,7 +5,7 @@ A list of C# features.
 ## Table of Contents
 
 1. [C# 7.0](#c-70)
-   a. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
+   1. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
 
 ## Features
 
