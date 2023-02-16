@@ -9,6 +9,7 @@ A list of C# features.
 2. [C# 7.0](#c-70)
    1. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
 2. [C# 9](#c-9)
+   1. [Top Level Statement](#top-level-statement)
 
 ## Features
 
@@ -51,13 +52,13 @@ var booleanString = booleanValue switch
 
 ### C# 9
 
-#### Top Level Statements
+#### Top Level Statement
 
 1. [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#top-level-statements)
 
 ##### Code Example
+`before_top_level_statement`
 ```
-// before_top_level_statements.cs
 using System;
 
 namespace Project
@@ -70,11 +71,12 @@ namespace Project
       }
    }
 }
+```
 
 ---
 
-// after_top_level_statement.cs
-// --
+`after_top_level_statement.cs`
+```
 // there is no need to add `using System` as top level statement is part of a global namespace and BCL are in the global namespace
 Console.WriteLine("Hello, World!");
 ```
