@@ -10,7 +10,7 @@ A list of C# features.
    1. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
 3. [C# 9](#c-9)
    1. [Top Level Statement](#top-level-statement)
-4. [C# 10)(#c-10)
+4. [C# 10)(#c-10-1)
    1. [Record Struct](#record-struct)
    2. [File-scoped Namespace](#file-scoped-level-namespace)
 
