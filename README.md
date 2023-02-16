@@ -84,7 +84,7 @@ namespace Project
 Console.WriteLine("Hello, World!");
 ```
 
-## C 10
+## C# 10
 
 ### Record Struct
 
