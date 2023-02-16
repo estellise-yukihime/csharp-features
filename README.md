@@ -8,6 +8,7 @@ A list of C# features.
    1. [Ternary Operator](#ternary-operator)
 2. [C# 7.0](#c-70)
    1. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
+2. [C# 9](#c-9)
 
 ## Features
 
@@ -46,4 +47,34 @@ var booleanString = booleanValue switch
     // This just a sample, do not mind the error "It has already been handle by the previous arm of the switch expression
     _ => "This is neither or discarded",
 };
+```
+
+### C# 9
+
+#### Top Level Statements
+
+1. [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#top-level-statements)
+
+##### Code Example
+```
+// before_top_level_statements.cs
+using System;
+
+namespace Project
+{
+   public class Program
+   {
+      public static void Main(List<string> args)
+      {
+         Console.WriteLine("Hello, World!");
+      }
+   }
+}
+
+---
+
+// after_top_level_statement.cs
+// --
+// there is no need to add `using System` as top level statement is part of a global namespace and BCL are in the global namespace
+Console.WriteLine("Hello, World!");
 ```
