@@ -8,8 +8,11 @@ A list of C# features.
    1. [Ternary Operator](#ternary-operator)
 2. [C# 7.0](#c-70)
    1. [Switch Expression - Pattern Matching Expressions](#switch-expression---pattern-matching-expressions)
-2. [C# 9](#c-9)
+3. [C# 9](#c-9)
    1. [Top Level Statement](#top-level-statement)
+4. [C# 10)(#c-10)
+   1. [Record Struct](#record-struct)
+   2. [File-scoped Namespace](#file-scoped-level-namespace)
 
 # Features
 
@@ -79,4 +82,30 @@ namespace Project
 ```
 // there is no need to add `using System` as top level statement is part of a global namespace and BCL are in the global namespace
 Console.WriteLine("Hello, World!");
+```
+
+## C 10
+
+### Record Struct
+
+1. [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record)
+
+### File-scoped Level Namespace
+
+1. [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10#file-scoped-namespace-declaration)
+
+#### Code Example
+`before_filescope_level_namespace`
+```
+namespace Project
+{
+   // Class Here
+}
+```
+---
+`after_filescore_level_namespace`
+```
+namespace Project;
+
+// Class Here
 ```
