@@ -1,8 +1,8 @@
-## Getting Started
+# Getting Started
 
 A list of C# features.
 
-## Table of Contents
+# Table of Contents
 
 1. [C# 1.0](#c-10)
    1. [Ternary Operator](#ternary-operator)
@@ -11,15 +11,15 @@ A list of C# features.
 2. [C# 9](#c-9)
    1. [Top Level Statement](#top-level-statement)
 
-## Features
+# Features
 
-### C# 1.0
+## C# 1.0
 
-#### Ternary Operator
+### Ternary Operator
 
 1. [Ternary Conditional Operator](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator)
 
-##### Code Example
+#### Code Example
 ```
 // Ternary Operator Syntax
 condition ? true : false
@@ -30,14 +30,14 @@ var random = Convert.ToBoolean(new Random().Next(0, 2));
 var value = random ? "This is true" : "This is false";
 ```
 
-### C# 7.0
+## C# 7.0
 
-#### Switch Expression - Pattern Matching Expressions
+### Switch Expression - Pattern Matching Expressions
 
 1. [Pattern Matching Overview](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching)
 2. [Pattern Matching Expressions](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression)
 
-##### Code Example
+#### Code Example
 
 ```
 var booleanValue = Convert.ToBoolean(new Random().Next(0, 2));
@@ -50,13 +50,13 @@ var booleanString = booleanValue switch
 };
 ```
 
-### C# 9
+## C# 9
 
-#### Top Level Statement
+### Top Level Statement
 
 1. [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#top-level-statements)
 
-##### Code Example
+#### Code Example
 `before_top_level_statement`
 ```
 using System;
