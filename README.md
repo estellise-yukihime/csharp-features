@@ -2,4 +2,4 @@
 
 A list of C# features.
 
-See the [C# features wiki page](/csharp-features/wiki).
+See the [C# features wiki page](https://github.com/estellise-yukihime/csharp-features/wiki).
